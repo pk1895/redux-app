@@ -9,7 +9,7 @@ const userReducer = (state = initialState, action) => {
         case actionTypes.SET_USER:
             return {
                 ...state,
-                users: action.payload
+                users: action.users
 
 
             }
